@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application' version '8.4.0'
+    id 'org.jetbrains.kotlin.android' version '1.9.24'
+}
+
+android {
+    namespace 'com.example.mediadl'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.mediadl"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    // โครงสร้างไฟล์แบบแบน ไม่ใช้ app/src/main/java/com/.../ ตามค่าเริ่มต้นของ Android
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            kotlin.srcDirs = ['src']
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+}

@@ -1,0 +1,91 @@
+{
+  "keys": [
+    {
+      "key": "ADMIN-A7CA-5864-3EE5",
+      "role": "admin",
+      "active": true,
+      "expiresAt": "2027-09-19T11:14:00.607938Z",
+      "createdAt": "2026-09-19T11:14:00.608067Z"
+    },
+    {
+      "key": "USER-2558-38BF-8F75",
+      "role": "user",
+      "slot": 1,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.608726Z",
+      "createdAt": "2026-09-19T11:14:00.608816Z"
+    },
+    {
+      "key": "USER-C615-C473-F957",
+      "role": "user",
+      "slot": 2,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.609421Z",
+      "createdAt": "2026-09-19T11:14:00.609504Z"
+    },
+    {
+      "key": "USER-7A1D-59FA-2100",
+      "role": "user",
+      "slot": 3,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.610085Z",
+      "createdAt": "2026-09-19T11:14:00.610165Z"
+    },
+    {
+      "key": "USER-FD2A-9E95-BB52",
+      "role": "user",
+      "slot": 4,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.611114Z",
+      "createdAt": "2026-09-19T11:14:00.611242Z"
+    },
+    {
+      "key": "USER-1BD0-5E09-A30E",
+      "role": "user",
+      "slot": 5,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.612054Z",
+      "createdAt": "2026-09-19T11:14:00.612150Z"
+    },
+    {
+      "key": "USER-92C6-8992-C1E3",
+      "role": "user",
+      "slot": 6,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.612745Z",
+      "createdAt": "2026-09-19T11:14:00.612825Z"
+    },
+    {
+      "key": "USER-CFB4-E450-9558",
+      "role": "user",
+      "slot": 7,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.613470Z",
+      "createdAt": "2026-09-19T11:14:00.613554Z"
+    },
+    {
+      "key": "USER-EBDA-DC65-7B11",
+      "role": "user",
+      "slot": 8,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.614133Z",
+      "createdAt": "2026-09-19T11:14:00.614212Z"
+    },
+    {
+      "key": "USER-4412-4C38-A24E",
+      "role": "user",
+      "slot": 9,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.614782Z",
+      "createdAt": "2026-09-19T11:14:00.614859Z"
+    },
+    {
+      "key": "USER-ACC7-00A0-9389",
+      "role": "user",
+      "slot": 10,
+      "active": true,
+      "expiresAt": "2026-10-19T11:14:00.615437Z",
+      "createdAt": "2026-09-19T11:14:00.615515Z"
+    }
+  ]
+}
